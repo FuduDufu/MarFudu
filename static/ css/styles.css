@@ -1,0 +1,150 @@
+
+*{
+    margin: 0  ; 
+    padding : 0 ; 
+
+}
+header{
+    height: 100px;
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    position: fixed ; 
+    z-index: 12 ; 
+}
+.logo{
+    font-family: Monoton;
+    font-size: 25px ;
+    padding: 50px;
+    margin-left: 50px;
+}
+.logo a{
+    color: #fff ; 
+    text-decoration: none;
+}
+.nav_bar{
+    font-family: Monoton;
+    font-size: 20px;
+    float: right ; 
+    list-style: none;
+}
+.nav_bar li{
+    display: inline-block ; 
+}
+.nav_bar li a{
+    padding:15px ; 
+
+}
+.nav_bar li a:hover{
+    background:#959191; 
+    color: #fff;
+    border: 1px solid#000;
+    border-radius: 5px;
+    border-width: auto ; 
+
+}
+.carousel-item img {
+    -webkit-background-size: cover;
+    background-size: cover ;
+    background-position: center center ;
+    background-repeat: no-repeat;
+    width: auto ;
+    height: 100vh ; 
+    filter: brightness(80%);
+
+
+}
+.box{
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    padding: 25px;
+}
+
+.course{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color: #777;
+    font-size: 14px ; 
+    font-weight: 300; 
+    line-height: 22px;
+    padding:10px;  
+
+}
+.row-text{
+    margin: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.rol-text{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px; 
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0 ;
+}
+.rol-text:hover{
+    box-shadow: 0 0 20px 0px rgba(0 , 0 , 0 , 0.2 );
+}
+@media(max-width:700px){
+    .row-text{
+        flex-direction: column;
+    }
+}
+.campus{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.campus-col{
+    flex-basis: 40%;
+    border-radius: 10%;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.campus-col img{
+    width: 100%;
+}
+.layer{
+    background: rgba;
+
+}
+/* header , section, aside,footer , span{
+    background-color: green;
+    text-align: center;
+    margin:30px;
+    color:white;
+    border-radius: 20px;
+}
+
+header:hover , section:hover, aside:hover,footer:hover , span    {
+    box-shadow: 2px 3px 2px 4px gray;
+}
+section{
+    float:left;
+    width: 50%;
+}
+aside{
+    float: right;
+    width: 30%;
+}
+
+header, footer{
+    clear: both;
+} */
