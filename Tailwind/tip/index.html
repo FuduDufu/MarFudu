@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-indigo-300 h-screen flex items-center justify-center">
+    <div class="bg-gray-900 text-white rounded-xl p-6 w-80">
+        <div class="mb-6">
+            <div class="text-lg font-bold mb-2">Bill Total</div>
+            <div class="flex items-center bg-gray-700 rounded-lg p-2">
+                <span class="mr-2">$</span>
+                <input type="number" placeholder="0.00" id="billtotalinput" class="bg-transparent border-none outline-none text-white flex-1">
+            </div>
+        </div>
+        <div class="mb-6">
+            <div class="text-lg font-bold mb-2">Tip</div>
+            <div class="flex items-center bg-gray-700 rounded-lg p-2">
+                <span class="mr-2">%</span>
+                <input type="number" placeholder="0.00" id="tipPercentage" class="bg-transparent border-none outline-none text-white flex-1">
+            </div>
+        </div>
+        
+        <div class="flex justify-between">
+            <div class="mr-4">
+                <div class="text-lg font-bold mb-2">People</div>
+                <div class="flex items-center">
+                    <button id="increase" class="bg-indigo-400 hover:bg-indigo-500 text-white rounded-full w-8 h-8 flex items-center justify-center">+</button>
+                    <span id="peopleCount" class="mx-4">1</span>
+                    <button id="decrease" class="bg-indigo-400 hover:bg-indigo-500 text-white rounded-full w-8 h-8 flex items-center justify-center">-</button>
+                </div>
+            </div>
+            <div>
+                <div class="text-lg font-bold mb-2">Total per person</div>
+                <div class="text-2xl font-bold" id="totalPerPerson">$0.00</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="tip.js"></script>
+</body>
+</html>
