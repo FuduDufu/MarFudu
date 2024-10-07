@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="h-screen flex items-center justify-center bg-gray-900 text-white">
+    <div class="flex flex-col items-center justify-center">
+        <div class="flex gap-5">
+            <button class="rpsButton bg-gray-200 text-6xl rounded-full h-24 w-24 hover:bg-gray-300" value="Rock">✊</button>
+            <button class="rpsButton bg-gray-200 text-6xl rounded-full h-24 w-24 hover:bg-gray-300" value="Paper">✋</button>
+            <button class="rpsButton bg-gray-200 text-6xl rounded-full h-24 w-24 hover:bg-gray-300" value="Scissors">✌️</button>
+        </div>
+        <div class="resultContainer text-3xl text-center mt-5">
+            <div id="player-score"></div>
+            <div id="hands"></div>
+            <div id="result"></div>
+            <button id="endGameButton" class="mt-5 bg-red-600 text-2xl rounded-full h-16 w-16 hover:bg-red-700">💣</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
